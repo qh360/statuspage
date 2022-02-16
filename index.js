@@ -115,19 +115,19 @@ function getStatusText(color) {
     ? "完蛋"
     : color == "partial"
     ? "运行阻塞"
-    : "Unknown";
+    : "无数据";
 }
 
 function getStatusDescriptiveText(color) {
   return color == "nodata"
     ? "暂时没有数据：未执行过检查"
     : color == "success"
-    ? "今天没挂过"
+    ? "这天没挂过"
     : color == "failure"
-    ? "今天完蛋过"
+    ? "这天完蛋过"
     : color == "partial"
-    ? "今天有运行阻塞记录存在"
-    : "Unknown";
+    ? "这天有运行阻塞记录存在"
+    : "你问我我问谁";
 }
 
 function getTooltip(key, date, quartile, color) {
