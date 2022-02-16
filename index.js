@@ -120,7 +120,7 @@ function getStatusText(color) {
 
 function getStatusDescriptiveText(color) {
   return color == "nodata"
-    ? "暂时没有数据：未执行过检查"
+    ? "暂时没有数据：未执行检查"
     : color == "success"
     ? "这天没挂过"
     : color == "failure"
