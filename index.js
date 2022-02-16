@@ -108,11 +108,11 @@ function templatizeString(text, parameters) {
 
 function getStatusText(color) {
   return color == "nodata"
-    ? "No Data Available"
+    ? "暂时没有数据"
     : color == "success"
-    ? "Fully Operational"
+    ? "都是大大滴好"
     : color == "failure"
-    ? "Major Outage"
+    ? "完蛋"
     : color == "partial"
     ? "Partial Outage"
     : "Unknown";
