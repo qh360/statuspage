@@ -114,19 +114,19 @@ function getStatusText(color) {
     : color == "failure"
     ? "完蛋"
     : color == "partial"
-    ? "Partial Outage"
+    ? "运行阻塞"
     : "Unknown";
 }
 
 function getStatusDescriptiveText(color) {
   return color == "nodata"
-    ? "No Data Available: Health check was not performed."
+    ? "暂时没有数据：未执行过检查"
     : color == "success"
-    ? "No downtime recorded today."
+    ? "今天没挂过"
     : color == "failure"
-    ? "Major outages recorded today."
+    ? "今天完蛋过"
     : color == "partial"
-    ? "Partial outages recorded today."
+    ? "今天有运行阻塞记录存在"
     : "Unknown";
 }
 
