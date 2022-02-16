@@ -108,9 +108,9 @@ function templatizeString(text, parameters) {
 
 function getStatusText(color) {
   return color == "nodata"
-    ? "暂时没有数据"
+    ? "暂无数据"
     : color == "success"
-    ? "都是大大滴好"
+    ? "大大滴好"
     : color == "failure"
     ? "完蛋"
     : color == "partial"
