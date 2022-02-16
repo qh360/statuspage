@@ -2,6 +2,8 @@ name: Scheduled Health Check
 
 # Controls when the action will run.
 on:
+  create:
+  delete:
   schedule:
     - cron: "5 * * * *"
 
