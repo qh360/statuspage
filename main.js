@@ -24,7 +24,7 @@ let res
   }).catch(function(err){alert("未知错误，请重试");
   console.log(err);
   document.getElementById("searchbtn").disabled=false;
-	document.getElementById("searchbtn").innerHTML=' Shorten it';})
+	document.getElementById("searchbtn").innerHTML='给我短！';})
   }
   function copyurl (id, attr) {
     let target = null;
